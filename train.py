@@ -19,7 +19,7 @@ def get_args():
 
     p.add_argument("--batch_size", type=int, default=128)
     p.add_argument("--lr", type=float, default=2e-4)
-    p.add_argument("--epochs", type=int, default=200)
+    p.add_argument("--epochs", type=int, default=200) # epochs200只是diffusion的一个基础迭代数
     # p.add_argument("--epochs", type=int, default=12)
 
     p.add_argument("--num_workers", type=int, default=4)
